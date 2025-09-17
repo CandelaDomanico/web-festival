@@ -10,9 +10,54 @@ html{
     scroll-padding-top: 150px;
 }
 
+.title{
+    margin-top:35px;
+    margin-bottom: 35px;
+}
+
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ded9df;
+}
+
+#artistas{
+    text-align: center;
+}
+
+#artistas > div{
+    width: 31%;
+    display: inline-block;
+    vertical-align: top ;
+}
+
+#artist-list div{
+    width: 30%;
+    border: 2px solid #ad0445;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-height: 430px;
+    padding: 1.5rem;
+    color: #ad0445
+}
+
+#artist-list div img{
+    width: 90%;
+    height: auto;
+}
+
+
+#artist-list div:target{
+    background-color: #989898;
+}
+
+#artist-list div dt{
+    font-size: 1.5rem;
+    font-family: over;
+    margin-bottom: 1rem;
 }
 
 #footer{
